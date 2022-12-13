@@ -1,0 +1,1 @@
+- dall-e-red-mist: completely black room with a door opening. There is a red mist coming from the door and a creature which we can only see the silouette. version 3 --s 42000 --uplight --ar 4:3 --no text, blur, people, humans, pollution

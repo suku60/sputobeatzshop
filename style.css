@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.item-holder {
+    background-color: blue;
+
+    height: 680px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    border-radius: .5rem .5rem 0 0;
+
+}
+
+.item {
+    height: 70px;
+    width: 300px;
+
+    background-image: url(/img/red-mist/dall-e-red-mist.png);
+    background-position:right;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: .5rem;
+    transition: ease-out .15s;
+
+    margin-block: 5px;
+    transition: .5s;
+
+    position: relative;
+}
+
+.item:hover {
+    height: 180px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 50%;
+    position: absolute;
+    right: .5rem;
+    bottom: .5rem;
+}
+
+.pago {
+    height: 35px;
+    width: 35px;
+    
+    background-color: green;
+
+    border-radius: .4rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
