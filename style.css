@@ -73,8 +73,14 @@ body {
     background-color: green;
 
     border-radius: .4rem;
+    transition: .1s;
 }
 
+.pago:hover {
+    background-color: rgb(106, 157, 106);
+    transition: .1s;
+
+}
 .hidden {
     display: none;
 }
